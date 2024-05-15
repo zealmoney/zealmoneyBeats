@@ -9,13 +9,15 @@ export const HeadingPage = () => {
                 <Container>
                     <Grid>
                         <Grid.Row>
-                            <Grid.Column style={{minHeight: 250}}>
+                            <Grid.Column>
                                 <Segment vertical>
                                     <Grid>
                                         <Grid.Row>
-                                            <Grid.Column>
+                                            <Grid.Column width={2}></Grid.Column>
+                                            <Grid.Column width={12} textAlign="center">
                                                 <CarouselComponent />
                                             </Grid.Column>
+                                            <Grid.Column width={2}></Grid.Column>
                                         </Grid.Row>
                                     </Grid>
                                 </Segment>

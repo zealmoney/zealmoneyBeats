@@ -1,6 +1,5 @@
 import React from 'react'
-import Carousel from 'better-react-carousel'
-import { Container, Grid, Segment } from 'semantic-ui-react'
+import Carousel from 'better-react-carousel';
 
 export const CarouselComponent = () => {
 
@@ -19,6 +18,5 @@ export const CarouselComponent = () => {
                   <img style={{cursor: 'pointer'}} width="100%" src="/images/beat4.png" />
                 </Carousel.Item>
               </Carousel>
-    
   )
 }
